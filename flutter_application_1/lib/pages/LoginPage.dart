@@ -42,9 +42,9 @@ class _LoginPageState extends State<LoginPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                padding: EdgeInsets.all(100.0),
+                padding: EdgeInsets.all(60.0),
                 decoration: BoxDecoration(
-                  color: Colors.white,
+                  color: const Color.fromARGB(255, 250, 250, 250),
                   borderRadius: BorderRadius.circular(20.0),
                   boxShadow: [
                     BoxShadow(
@@ -156,7 +156,7 @@ class _LoginPageState extends State<LoginPage> {
                               MaterialPageRoute(builder: (context) => RegistrarUsuario()));
                             },
                             child: Text(
-                              "Não Possuí Cadastro? Clique Aqui!",
+                              "Clique Aqui para se cadastrar!",
                               style: TextStyle(
                                 fontSize: 16.0,
                                 color: Colors.blueAccent,

@@ -139,7 +139,7 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                         validator: (value) {
                           if(value == null || value.isEmpty) {
-                            return "Informe a senha";
+                            return "Informe uma senha válida";
                           } else if(value.length < 6) {
                             return "A senha deve conter mais de 5 digitos!";
                           }
